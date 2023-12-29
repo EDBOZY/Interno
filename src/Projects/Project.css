@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.project{
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.project .container{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+}
+.project .k{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 4rem;
+}
+.box .i{
+    height: 50vh;
+    width: 50vh;
+}
+.project .content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.project .down{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+.project .up{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.project h1{
+    font-size: 50px;
+    text-align: center;
+}
+.project p{
+    font-size: large;
+    text-align: center;
+    width: 35vw;
+}

@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.people{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 8rem;
+}
+.people .container{
+    border-radius: 3rem;
+    height: 70vh;
+    width: 70vw;
+    background-color: #F4F0EC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 20px;
+}
+.people .up{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: -20vh; */
+}
+.people .down{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 20px;
+}
+.people h1{
+    font-size: 40px;
+    width: 25vw;
+    text-align: center;
+}
+.people .box{
+    height: 40vh;
+    width: 40vh;
+    border-radius: 3rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.people .c{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.people .r{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.people p{
+    font-size: large;
+    width: 15vw;
+}
+.people .ig{
+    padding: 20px;
+}

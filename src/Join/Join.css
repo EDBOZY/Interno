@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.join{
+    height: 50vh;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.join .container{
+    height: 40vh;
+    width: 50vw;
+    background-color: #292F36;
+    border-radius: 3rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+}
+.join button{
+    padding: 20px;
+    font-size: 20px;
+    background-color: #CDA274;
+    color: white;
+    border-radius: 1rem;
+}
+.join h1{
+    font-size: 50px;
+    color: white;
+}
+.join span{
+    font-size: larger;
+    color: white;
+}

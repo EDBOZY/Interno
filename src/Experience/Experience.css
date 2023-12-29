@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.experience{
+    height: 40vh;
+    background-color: #F4F0EC;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.experience .line{
+    height: 12vh;
+    width: 1px;
+    background-color: #CDA274;
+}
+.experience .content{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.experience h1{
+    color: #CDA274;
+    font-size: 60px;
+}
+.experience span{
+    font-size: large;
+    color: #4D5053;
+}

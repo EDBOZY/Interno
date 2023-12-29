@@ -1,0 +1,43 @@
+/* Navbar.css */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffff;
+    padding: 30px;
+    /* Add other styling as needed */
+  }
+  
+  
+  
+  .logo {
+    width: 100px; /* Adjust as per your logo size */
+    height: auto;
+  }
+  
+  
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    font-size: larger;
+  }
+  
+  .nav-links li {
+    margin-right: 15px;
+    
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #333;
+    /* Add other link styles as needed */
+  }
+  
